@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #D1FF19;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-main {
+  background: var(--foreground);
+  color: var(--background);
+  @apply relative z-10;
+}
+
+
+.site-footer {
+  background: var(--foreground);
+  color: var(--background);
+  @apply py-4 relative z-10;
+}
+
+.subtitle {
+  @apply font-black uppercase text-[#D1FF19] font-mono;
+}
