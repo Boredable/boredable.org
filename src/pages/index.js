@@ -63,11 +63,12 @@ export default function Home() {
           <p className="mb-4">
             Revenue generated from these premium features is directly reinvested
             into the platform, funding dedicated developers who continuously
-            refine and enhance Boredable's offerings. This creates a sustainable
-            cycle of growth and innovation, ensuring that users remain at the
-            heart of every decision. By joining Boredable, you're embracing a
-            movement that values simplicity, authenticity, and community-driven
-            development for a better digital experience.
+            refine and enhance Boredable&apos;s offerings. This creates a
+            sustainable cycle of growth and innovation, ensuring that users
+            remain at the heart of every decision. By joining Boredable,
+            you&apos;re embracing a movement that values simplicity,
+            authenticity, and community-driven development for a better digital
+            experience.
           </p>
 
           <p className="mb-4">
