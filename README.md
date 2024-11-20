@@ -1,3 +1,3 @@
-# Boredable.net
+# Boredable.org
 
-Landing page for boredable.net.
+Landing page for boredable.org. More information coming in early 2025.
