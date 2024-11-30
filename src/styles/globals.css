@@ -4,14 +4,17 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000;
   --primary: #D1FF19;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-wide {
+  font-stretch: 150%;
 }
 
 .site-main {
@@ -20,13 +23,42 @@ body {
   @apply relative z-10;
 }
 
+.site-header {
+  @apply py-4 fixed z-10 left-0 right-0 top-0;
+}
+
+.site-name {
+  @apply uppercase self-center text-2xl md:text-3xl font-black whitespace-nowrap;
+}
+
+.site-menu-wrapper {
+  @apply w-full md:w-auto hidden md:block bg-white md:bg-transparent rounded-lg md:rounded-none mt-5 md:mt-0;
+}
+
+.site-menu-wrapper.open {
+  display: block !important;
+}
+
+.site-menu {
+  @apply font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0;
+}
+
+.menu-item {
+  @apply block py-2 px-3 rounded hover:underline md:p-0;
+}
 
 .site-footer {
-  background: var(--foreground);
-  color: var(--background);
-  @apply py-4 relative z-10;
+  @apply py-4 fixed z-10 left-0 right-0 bottom-0;
 }
 
 .subtitle {
   @apply font-black uppercase text-[#D1FF19] font-mono;
+}
+
+.dialog-panel {
+  @apply relative shadow-lg w-full max-w-md rounded-xl bg-white p-6 backdrop-blur-2xl duration-300 ease-out;
+}
+
+.dialog-title {
+  @apply text-lg font-black text-wide text-black;
 }
