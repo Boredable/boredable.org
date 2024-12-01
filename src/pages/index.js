@@ -7,19 +7,17 @@ export default function Home() {
     <>
       <Head>
         <title>Boredable.org</title>
-        <meta name="description" content="Boredable.org" />
         <meta
-          property="og:title"
-          content="A new, boring social network for adults."
+          name="description"
+          content="Building a simple, stress-free social platform that fosters creativity, genuine connections, and reinvests in its community for a better digital experience."
         />
+        <meta property="og:title" content="Boredable" />
         <meta
           property="og:description"
-          content="A new, boring social network for adults."
+          content="Building a simple, stress-free social platform that fosters creativity, genuine connections, and reinvests in its community for a better digital experience."
         />
-        <meta
-          property="og:image"
-          content="/images/og_preview.jpg"
-        />
+        <meta property="og:image" content="/images/og_preview.jpg" />
+        <link rel="icon" href="/favicon.png" sizes="any" />
       </Head>
       <Header />
       <div className="relative h-full">
