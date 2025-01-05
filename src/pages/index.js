@@ -32,7 +32,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Copyright © Boredable.org 2024
+            Copyright © Boredable.org 2025
           </a>
         </div>
       </footer>
